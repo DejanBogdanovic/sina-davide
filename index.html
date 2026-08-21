@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+<title>Sina &amp; Davide — Wir trauen uns!</title>
+<meta name="description" content="Digitale Einladung zur Hochzeit von Sina &amp; Davide am 29.05.2027.">
+<meta name="theme-color" content="#f1efe9">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>
+  body{ overflow:auto !important; height:auto !important; }
+  #cover{ display:none !important; }
+  .viewer{ opacity:1 !important; visibility:visible !important; }
+</style></noscript>
+</head>
+
+<body class="is-sealed">
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============================================================
+     1 · UMSCHLAG
+     ============================================================ -->
+<section id="cover" class="cover">
+  <div class="cover__inner">
+
+    <p class="cover__eyebrow" data-cover-eyebrow>Ihr habt Post von</p>
+
+    <h1 class="cover__names">
+      <span data-bride>Sina</span>
+      <span class="amp">&amp;</span>
+      <span data-groom>Davide</span>
+    </h1>
+
+    <div class="stage">
+      <div class="envelope" id="envelope">
+        <div class="env-shadow" aria-hidden="true"></div>
+        <div class="env-body" aria-hidden="true"></div>
+
+        <!-- Die echte Karte, die aus dem Umschlag gleitet -->
+        <div class="env-card" aria-hidden="true">
+          <img class="env-card__img" id="envCardImg" src="" alt="">
+          <div class="env-card__veil"></div>
+          <div class="env-card__label">
+            <span class="env-card__mono" data-monogram>S&amp;D</span>
+            <span class="env-card__line"></span>
+            <span class="env-card__txt" data-card-label>Wir trauen uns</span>
+            <span class="env-card__date" data-date-dotted>29 · 05 · 2027</span>
+          </div>
+        </div>
+
+        <div class="flap flap--bottom" aria-hidden="true"></div>
+        <div class="flap flap--left"   aria-hidden="true"></div>
+        <div class="flap flap--right"  aria-hidden="true"></div>
+        <div class="flap flap--top"    aria-hidden="true"></div>
+
+        <button class="seal" id="seal" type="button" aria-label="Einladung öffnen">
+          <span class="seal__wax">
+            <span class="seal__mono" data-monogram>S&amp;D</span>
+          </span>
+        </button>
+      </div>
+
+      <svg class="butterfly" viewBox="0 0 120 100" aria-hidden="true">
+        <defs>
+          <linearGradient id="wingGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%"  stop-color="#fdfcf8"/>
+            <stop offset="55%" stop-color="#eeeade"/>
+            <stop offset="100%" stop-color="#d3d2c2"/>
+          </linearGradient>
+        </defs>
+        <g class="bf-wing bf-wing--l">
+          <path d="M58 50C40 8 6 10 6 34c0 20 24 22 52 16Z" fill="url(#wingGrad)" stroke="#9aa38d" stroke-width="1.2"/>
+          <path d="M58 52C42 78 16 86 12 70 9 57 30 50 58 52Z" fill="url(#wingGrad)" stroke="#9aa38d" stroke-width="1.2"/>
+        </g>
+        <g class="bf-wing bf-wing--r">
+          <path d="M62 50C80 8 114 10 114 34c0 20-24 22-52 16Z" fill="url(#wingGrad)" stroke="#9aa38d" stroke-width="1.2"/>
+          <path d="M62 52C78 78 104 86 108 70c3-13-18-20-46-18Z" fill="url(#wingGrad)" stroke="#9aa38d" stroke-width="1.2"/>
+        </g>
+        <ellipse cx="60" cy="52" rx="3.2" ry="15" fill="#7b8272"/>
+        <path d="M59 38c-5-8-9-11-13-12" stroke="#7b8272" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        <path d="M61 38c5-8 9-11 13-12" stroke="#7b8272" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+      </svg>
+
+      <div class="sparks" id="sparks" aria-hidden="true"></div>
+    </div>
+
+    <p class="cover__hint" data-cover-hint>Zum Öffnen tippen</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     2 · DIE KARTE
+     ============================================================ -->
+<main class="viewer" id="viewer" aria-hidden="true">
+  <div class="viewer__scroll" id="viewerScroll">
+    <img class="viewer__img" id="cardImg" src="" alt="">
+  </div>
+
+  <p class="viewer__hint" id="zoomHint">Zum Vergrössern tippen</p>
+
+  <a class="viewer__save" id="saveBtn" href="#" download>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3a1 1 0 0 1 1 1v9.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.4l3.3 3.3V4a1 1 0 0 1 1-1M4 19a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1"/></svg>
+    <span data-save-label>Karte speichern</span>
+  </a>
+</main>
+
+<button class="music-btn" id="musicBtn" type="button" hidden aria-label="Musik an/aus">
+  <span class="bars"><i></i><i></i><i></i></span>
+</button>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

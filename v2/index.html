@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sina &amp; Davide — Wir trauen uns!</title>
+<meta name="description" content="Digitale Einladung zur Hochzeit von Sina &amp; Davide am 29.05.2027 in Chur und auf der Lenzerheide.">
+<meta name="theme-color" content="#f2f0eb">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>
+  body{ overflow:auto !important; height:auto !important; }
+  #cover{ display:none !important; }
+  .invite{ opacity:1 !important; visibility:visible !important; }
+  .reveal{ opacity:1 !important; transform:none !important; }
+</style></noscript>
+</head>
+
+<body class="is-sealed">
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============================================================
+     ICON-BIBLIOTHEK (gezeichnete Linien-Illustrationen)
+     ============================================================ -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <g id="ico-defaults"></g>
+  </defs>
+
+  <!-- Kathedrale -->
+  <symbol id="i-church" viewBox="0 0 64 84">
+    <g fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M13 38 19 14l6 24Z"/>
+      <path d="M39 38 45 14l6 24Z"/>
+      <path d="M19 14V7M16.2 10h5.6"/>
+      <path d="M45 14V7M42.2 10h5.6"/>
+      <path d="M25 38 32 24l7 14Z"/>
+      <path d="M13 38v32M25 38v32M39 38v32M51 38v32"/>
+      <circle cx="32" cy="45.5" r="4.4"/>
+      <path d="M32 41.1v8.8M27.6 45.5h8.8"/>
+      <path d="M27 70V56.5a5 5 0 0 1 10 0V70"/>
+      <path d="M32 70v-9"/>
+      <path d="M17 52.5v-5.2a2 2 0 0 1 4 0v5.2Z"/>
+      <path d="M43 52.5v-5.2a2 2 0 0 1 4 0v5.2Z"/>
+      <path d="M9 70h46M6 75h52"/>
+    </g>
+  </symbol>
+
+  <!-- Kurhaus mit Bergen und Tannen -->
+  <symbol id="i-kurhaus" viewBox="0 0 96 66">
+    <g fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 46 16 22l8 10 8-12 14 26"/>
+      <path d="M11 28.5 16 22l5 6.5"/>
+      <path d="M27.5 25 32 20l4.5 5"/>
+      <path d="M52 46 68 24l16 22"/>
+      <path d="M63 30 68 24l5 6"/>
+      <path d="M30 36 48 25l18 11"/>
+      <path d="M32 36v22M64 36v22M32 58h32"/>
+      <path d="M36 41.5h5.2v5.2H36zM45.4 41.5h5.2v5.2h-5.2zM54.8 41.5H60v5.2h-5.2z"/>
+      <path d="M36 50h5.2v4H36zM54.8 50H60v4h-5.2z"/>
+      <path d="M45.4 58v-8h5.2v8"/>
+      <path d="M18 58v-5M12 53h12L18 38Z"/>
+      <path d="M78 58v-5M72 53h12L78 40Z"/>
+      <path d="M26 58v-4M21 54h10L26 43Z"/>
+      <path d="M4 58h88"/>
+    </g>
+  </symbol>
+
+  <!-- Herz -->
+  <symbol id="i-heart" viewBox="0 0 24 22">
+    <path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"
+          d="M12 20.2S2 14.6 2 8.3C2 4.9 4.6 2.6 7.5 2.6c2 0 3.6 1.1 4.5 2.6.9-1.5 2.5-2.6 4.5-2.6C19.4 2.6 22 4.9 22 8.3c0 6.3-10 11.9-10 11.9Z"/>
+  </symbol>
+
+  <!-- Sektgläser -->
+  <symbol id="i-glasses" viewBox="0 0 48 40">
+    <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="rotate(11 15 33)">
+        <path d="M8 6h14l-1.8 11.4a5.2 5.2 0 0 1-10.4 0Z"/>
+        <path d="M15 22.6V33M10.7 33h8.6"/>
+      </g>
+      <g transform="rotate(-11 33 33)">
+        <path d="M26 6h14l-1.8 11.4a5.2 5.2 0 0 1-10.4 0Z"/>
+        <path d="M33 22.6V33M28.7 33h8.6"/>
+      </g>
+      <path d="M24 3.5v3M20.6 5.6 22 7.7M27.4 5.6 26 7.7"/>
+    </g>
+  </symbol>
+
+  <!-- Geschenk -->
+  <symbol id="i-gift" viewBox="0 0 24 24">
+    <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3.6 9.8h16.8v10.9a1.2 1.2 0 0 1-1.2 1.2H4.8a1.2 1.2 0 0 1-1.2-1.2Z"/>
+      <path d="M2.6 6.2h18.8v3.6H2.6Z"/>
+      <path d="M12 6.2v15.7"/>
+      <path d="M12 6.2C10.8 3.4 6.7 2.8 6.7 4.9c0 1.3 1.8 1.3 5.3 1.3Z"/>
+      <path d="M12 6.2c1.2-2.8 5.3-3.4 5.3-1.3 0 1.3-1.8 1.3-5.3 1.3Z"/>
+    </g>
+  </symbol>
+
+  <!-- Bett -->
+  <symbol id="i-bed" viewBox="0 0 28 24">
+    <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 21V8.5"/>
+      <path d="M24 21v-6"/>
+      <path d="M4 15.2h20"/>
+      <path d="M4 18.6h20"/>
+      <path d="M6.6 15.2v-3.4a1.4 1.4 0 0 1 1.4-1.4h3.6a1.4 1.4 0 0 1 1.4 1.4v3.4"/>
+      <path d="M14.4 15.2c.4-1.9 2-3.2 4-3.2H22a2 2 0 0 1 2 2v1.2"/>
+    </g>
+  </symbol>
+
+  <!-- Kalender -->
+  <symbol id="i-calendar" viewBox="0 0 24 24">
+    <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2.7" y="5.6" width="18.6" height="15.7" rx="1.4"/>
+      <path d="M2.7 10.6h18.6"/>
+      <path d="M8 3.2v4.6M16 3.2v4.6"/>
+      <path d="M12 18.8s-3.2-2-3.2-4c0-1.2 1-2 2-2 .5 0 .9.2 1.2.6.3-.4.7-.6 1.2-.6 1 0 2 .8 2 2 0 2-3.2 4-3.2 4Z"/>
+    </g>
+  </symbol>
+
+  <!-- Zweig -->
+  <symbol id="i-sprig" viewBox="0 0 64 22">
+    <g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round">
+      <path d="M4 18C18 18 36 14 60 4"/>
+      <ellipse cx="13" cy="14.8" rx="5" ry="2.4" transform="rotate(-22 13 14.8)"/>
+      <ellipse cx="21" cy="19.4" rx="5" ry="2.4" transform="rotate(22 21 19.4)"/>
+      <ellipse cx="28.5" cy="12.4" rx="5" ry="2.4" transform="rotate(-26 28.5 12.4)"/>
+      <ellipse cx="36.5" cy="16.6" rx="5" ry="2.4" transform="rotate(22 36.5 16.6)"/>
+      <ellipse cx="44" cy="9.4" rx="4.6" ry="2.2" transform="rotate(-30 44 9.4)"/>
+      <ellipse cx="51.5" cy="12.6" rx="4.6" ry="2.2" transform="rotate(20 51.5 12.6)"/>
+    </g>
+  </symbol>
+</svg>
+
+<!-- ============================================================
+     1 · UMSCHLAG (Startbildschirm)
+     ============================================================ -->
+<section id="cover" class="cover">
+  <div class="cover__inner">
+
+    <p class="cover__eyebrow" data-cover-eyebrow>Ihr habt Post von</p>
+
+    <h1 class="cover__names">
+      <span data-bride>Sina</span>
+      <span class="amp">&amp;</span>
+      <span data-groom>Davide</span>
+    </h1>
+
+    <div class="stage">
+      <div class="envelope" id="envelope">
+        <div class="env-shadow" aria-hidden="true"></div>
+        <div class="env-body" aria-hidden="true"></div>
+
+        <div class="env-card" aria-hidden="true">
+          <div class="env-card__frame">
+            <span class="env-card__mono" data-monogram>S&amp;D</span>
+            <span class="env-card__line"></span>
+            <span class="env-card__txt">Wir trauen uns</span>
+            <span class="env-card__date" data-date-dotted>29 · 05 · 2027</span>
+          </div>
+        </div>
+
+        <div class="flap flap--bottom" aria-hidden="true"></div>
+        <div class="flap flap--left"   aria-hidden="true"></div>
+        <div class="flap flap--right"  aria-hidden="true"></div>
+        <div class="flap flap--top"    aria-hidden="true"></div>
+
+        <button class="seal" id="seal" type="button" aria-label="Einladung öffnen">
+          <span class="seal__wax">
+            <span class="seal__mono" data-monogram>S&amp;D</span>
+          </span>
+        </button>
+      </div>
+
+      <svg class="butterfly" viewBox="0 0 120 100" aria-hidden="true">
+        <defs>
+          <linearGradient id="wingGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%"  stop-color="#fdfcf8"/>
+            <stop offset="55%" stop-color="#eeeade"/>
+            <stop offset="100%" stop-color="#d3d2c2"/>
+          </linearGradient>
+        </defs>
+        <g class="bf-wing bf-wing--l">
+          <path d="M58 50C40 8 6 10 6 34c0 20 24 22 52 16Z" fill="url(#wingGrad)" stroke="#9aa38d" stroke-width="1.2"/>
+          <path d="M58 52C42 78 16 86 12 70 9 57 30 50 58 52Z" fill="url(#wingGrad)" stroke="#9aa38d" stroke-width="1.2"/>
+        </g>
+        <g class="bf-wing bf-wing--r">
+          <path d="M62 50C80 8 114 10 114 34c0 20-24 22-52 16Z" fill="url(#wingGrad)" stroke="#9aa38d" stroke-width="1.2"/>
+          <path d="M62 52C78 78 104 86 108 70c3-13-18-20-46-18Z" fill="url(#wingGrad)" stroke="#9aa38d" stroke-width="1.2"/>
+        </g>
+        <ellipse cx="60" cy="52" rx="3.2" ry="15" fill="#7b8272"/>
+        <path d="M59 38c-5-8-9-11-13-12" stroke="#7b8272" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        <path d="M61 38c5-8 9-11 13-12" stroke="#7b8272" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+      </svg>
+
+      <div class="sparks" id="sparks" aria-hidden="true"></div>
+    </div>
+
+    <p class="cover__hint" data-cover-hint>Zum Öffnen tippen</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     2 · EINLADUNG
+     ============================================================ -->
+<main id="invite" class="invite" aria-hidden="true">
+
+  <!-- HERO -->
+  <header class="hero section">
+    <div class="reveal">
+      <p class="script-xl" data-headline>Wir trauen uns!</p>
+
+      <svg class="icon icon--heart-sm" viewBox="0 0 24 22" aria-hidden="true"><use href="#i-heart"/></svg>
+
+      <h1 class="names">
+        <span data-bride>Sina</span><span class="amp">&amp;</span><span data-groom>Davide</span>
+      </h1>
+
+      <p class="eyebrow" data-date-intro>Wir heiraten am</p>
+      <p class="bigdate" data-date-label>29.05.2027</p>
+
+      <div class="ornament" aria-hidden="true">
+        <span class="ornament__line"></span>
+        <svg class="icon icon--sprig flip" viewBox="0 0 64 22"><use href="#i-sprig"/></svg>
+        <svg class="icon icon--heart-xs" viewBox="0 0 24 22"><use href="#i-heart"/></svg>
+        <svg class="icon icon--sprig" viewBox="0 0 64 22"><use href="#i-sprig"/></svg>
+        <span class="ornament__line"></span>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </header>
+
+  <!-- ORTE -->
+  <section class="section section--tight">
+    <div class="reveal">
+      <div class="venues" id="venues"></div>
+    </div>
+  </section>
+
+  <!-- ZITAT -->
+  <section class="section section--tight">
+    <div class="reveal">
+      <div class="quote-row">
+        <svg class="icon icon--sprig flip" viewBox="0 0 64 22" aria-hidden="true"><use href="#i-sprig"/></svg>
+        <p class="quote" data-quote></p>
+        <svg class="icon icon--sprig" viewBox="0 0 64 22" aria-hidden="true"><use href="#i-sprig"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="section section--tight">
+    <div class="reveal">
+      <p class="eyebrow">Nur noch</p>
+      <div class="countdown" id="countdown">
+        <div class="cd"><b data-cd="d">–</b><i>Tage</i></div>
+        <div class="cd"><b data-cd="h">–</b><i>Stunden</i></div>
+        <div class="cd"><b data-cd="m">–</b><i>Minuten</i></div>
+        <div class="cd"><b data-cd="s">–</b><i>Sekunden</i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HERZENSMENSCHEN / ABEND -->
+  <section class="section">
+    <div class="reveal">
+      <div class="notes" id="notes"></div>
+    </div>
+  </section>
+
+  <!-- GESCHENKE -->
+  <section class="section section--tight">
+    <div class="reveal">
+      <div class="block" id="gift"></div>
+    </div>
+  </section>
+
+  <!-- ÜBERNACHTUNG -->
+  <section class="section section--tight">
+    <div class="reveal">
+      <div class="block block--brush" id="stay"></div>
+    </div>
+  </section>
+
+  <!-- ZUSAGE -->
+  <section class="section">
+    <div class="reveal">
+      <div class="block" id="rsvpText"></div>
+      <div class="rsvp__actions">
+        <a class="btn btn--wa" id="rsvpWa" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 1.8a8.2 8.2 0 1 1-4.2 15.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 0 1 12 3.8m-3.6 4c-.2 0-.5.1-.7.4s-.9.9-.9 2.2.9 2.6 1 2.8 1.8 2.9 4.5 4c2.2.9 2.6.7 3.1.7s1.6-.7 1.9-1.3.3-1.2.2-1.3-.3-.2-.6-.3l-2-1c-.3-.1-.5-.2-.7.1l-.7.9c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.2-.7l.4-.5.3-.5v-.5l-.9-2.1c-.2-.5-.4-.4-.6-.4z"/></svg>
+          Per WhatsApp zusagen
+        </a>
+        <a class="btn btn--mail" id="rsvpMail" href="#">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path fill="currentColor" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1m1.4 2L12 12.3 19.6 7zM20 8.6l-7.4 5.2a1 1 0 0 1-1.2 0L4 8.6V17h16z"/></svg>
+          Per E-Mail zusagen
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABSCHLUSS -->
+  <footer class="foot">
+    <div class="reveal">
+      <svg class="icon icon--heart-sm" viewBox="0 0 24 22" aria-hidden="true"><use href="#i-heart"/></svg>
+      <p class="foot__closing" data-closing></p>
+      <p class="foot__sig" data-signature>In Liebe,</p>
+      <p class="foot__script">
+        <span data-bride>Sina</span> <span class="amp">&amp;</span> <span data-groom>Davide</span>
+        <svg class="icon icon--heart-xs" viewBox="0 0 24 22" aria-hidden="true"><use href="#i-heart"/></svg>
+      </p>
+    </div>
+  </footer>
+</main>
+
+<button class="music-btn" id="musicBtn" type="button" hidden aria-label="Musik an/aus">
+  <span class="bars"><i></i><i></i><i></i></span>
+</button>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
